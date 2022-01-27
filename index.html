@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Play Kahoot - Enter game PIN here!</title>
+    <style>
+        body{
+            background-image: url("images/ss.png");
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .header{
+            float: right;
+            margin: 15px;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 38%;
+            left: 42%;
+            
+        }
+        .input  {
+            background-color: white;
+            width: 320px;
+            height: 138px;
+            border-radius: 7px;
+            /* padding: 16px; */
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .input input {
+            width: 288px;
+            height: 48px;
+            text-align: center;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            opacity: .7;
+            border: 2px solid rgba(0,0,0,.5);
+            border-radius: 5px;
+            align-items: center;
+            position: relative;
+            left: 16px;
+            top: 16px;
+        }
+
+        .input button{
+            width: 288px;
+            height: 48px;
+            position: relative;
+            top: 10px;
+            left: 16px;
+            background-color: #2F2F2F;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+        }
+        .input button:hover{
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        .footer{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 0.8rem;
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+        }
+        .footer a {
+            text-decoration: none;
+            color: white;
+            
+        }
+        .footer a:hover{
+            text-decoration: underline;
+        }
+        .footer p,
+        .footer a{
+            margin-bottom: 0px;
+            font-size: 0.9rem;
+        }
+        .footer ul{
+            margin-top: 0px;
+        }
+        .footer li {
+            list-style: none;
+            float: left;
+            margin-right: 10px;
+            position: relative;
+            left: 100px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><img src="images/langlogo.png" alt=""></div>
+        <div class="main"><div class="logo"><img src="images/kahootlogo.png" alt=""></div>
+        <div class="input">
+            <input type="search" name="pin" id="pin" placeholder=" Oyun PIN'i"><br>
+            <button>Gir</button>
+        </div></div>
+        <div class="footer">
+            <p>Kendi kahoot'unu buradan ÜCRETSİZ oluştur: <a href="index.html"><b>kahoot.com</b></a></p><br>
+            <ul><li><a href="index.html">Şartlar |</a></li>
+            <li><a href="index.html">Gizlilik</a></li></ul>
+        </div>
+    </div>
+</body>
+</html>
